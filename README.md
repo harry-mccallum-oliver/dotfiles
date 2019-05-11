@@ -1,6 +1,6 @@
 # Harry's configuration files
 
-This repository contains dotfiles (configuration) files.
+This repository contains dotfiles (configuration files).
 
 To try these dotfiles 
 
