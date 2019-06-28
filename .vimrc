@@ -13,5 +13,14 @@ set cursorline
 " When starting a new line, copy the indent from the current line
 set autoindent
 
+" Enable file type detection
+filetype on
+
+" Load local rules for file types
+filetype plugin on
+
+" Load indent rules for file types
+filetype indent on
+
 " Use the default syntax highlighting colours
 syntax on
