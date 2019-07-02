@@ -1,0 +1,8 @@
+[alias]
+	pretty-log = log --graph \
+	                 --abbrev-commit \
+		         --pretty=format:'%C(magenta) %h %Creset (%ci) - %Cgreen %<(80,trunc)%s %Creset %C(cyan) <%an>'
+
+# Include local file that stores git username and email
+[include]
+	path = ~/.gitconfig.local-user
