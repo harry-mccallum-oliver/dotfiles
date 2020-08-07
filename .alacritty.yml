@@ -1,0 +1,131 @@
+window:
+  dimensions:
+    columns: 140
+    lines: 38
+  padding:
+    x: 10
+    y: 10
+  decorations: full
+  title: Alacritty
+  dynamic_title: true
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: monospace
+    style: Regular
+  bold:
+    family: monospace
+    style: Bold
+  italic:
+    family: monospace
+    style: Italic
+  bold_italic:
+    family: monospace
+    style: Bold Italic
+  size: 13.0
+  offset:
+    x: 3
+    y: 3
+  glyph_offset:
+    x: 0
+    y: 0
+
+colors:
+  primary:
+    background: '#1d1f21'
+    foreground: '#c5c8c6'
+    dim_foreground: '#828482'
+    bright_foreground: '#eaeaea'
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+  selection:
+    text: CellBackground
+    background: CellForeground
+  search:
+    matches:
+      foreground: '#000000'
+      background: '#ffffff'
+    bar:
+      background: '#c5c8c6'
+      foreground: '#1d1f21'
+  normal:
+    black:   '#1d1f21'
+    red:     '#cc6666'
+    green:   '#b5bd68'
+    yellow:  '#f0c674'
+    blue:    '#81a2be'
+    magenta: '#b294bb'
+    cyan:    '#8abeb7'
+    white:   '#c5c8c6'
+  bright:
+    black:   '#666666'
+    red:     '#d54e53'
+    green:   '#b9ca4a'
+    yellow:  '#e7c547'
+    blue:    '#7aa6da'
+    magenta: '#c397d8'
+    cyan:    '#70c0b1'
+    white:   '#eaeaea'
+  dim:
+    black:   '#131415'
+    red:     '#864343'
+    green:   '#777c44'
+    yellow:  '#9e824c'
+    blue:    '#556a7d'
+    magenta: '#75617b'
+    cyan:    '#5b7d78'
+    white:   '#828482'
+  indexed_colors: []
+
+bell:
+  animation: EaseOutExpo
+  duration: 0
+  color: '#ffffff'
+  command: None
+
+background_opacity: 1.0
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: false
+
+cursor:
+  style: Block
+  vi_mode_style: None
+  unfocused_hollow: true
+  thickness: 0.15
+
+live_config_reload: true
+
+shell:
+  program: /bin/bash
+  args:
+    - --login
+
+working_directory: None
+
+alt_send_esc: true
+
+mouse:
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+  hide_when_typing: false
+  url:
+    launcher:
+      program: open
+      args: []
+    modifiers: None
+
+debug:
+  render_timer: false
+  persistent_logging: false
+  log_level: Warn
+  print_events: false

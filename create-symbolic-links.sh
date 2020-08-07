@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Alacritty
+ln -sf ~/dotfiles/.alacritty.yml ~/.alacritty.yml
+
 # Git
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 
