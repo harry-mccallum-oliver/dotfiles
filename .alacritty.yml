@@ -8,6 +8,7 @@ window:
   decorations: full
   title: Alacritty
   dynamic_title: true
+  opacity: 1.0
 
 scrolling:
   history: 10000
@@ -15,16 +16,16 @@ scrolling:
 
 font:
   normal:
-    family: monospace
+    family: Menlo
     style: Regular
   bold:
-    family: monospace
+    family: Menlo
     style: Bold
   italic:
-    family: monospace
+    family: Menlo
     style: Italic
   bold_italic:
-    family: monospace
+    family: Menlo
     style: Bold Italic
   size: 13.0
   offset:
@@ -91,8 +92,6 @@ bell:
   color: '#ffffff'
   command: None
 
-background_opacity: 1.0
-
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   save_to_clipboard: false
@@ -118,11 +117,6 @@ mouse:
   double_click: { threshold: 300 }
   triple_click: { threshold: 300 }
   hide_when_typing: false
-  url:
-    launcher:
-      program: open
-      args: []
-    modifiers: None
 
 debug:
   render_timer: false
