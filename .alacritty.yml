@@ -54,9 +54,6 @@ colors:
     matches:
       foreground: '#000000'
       background: '#ffffff'
-    bar:
-      background: '#c5c8c6'
-      foreground: '#1d1f21'
   normal:
     black:   '#1d1f21'
     red:     '#cc6666'
@@ -110,8 +107,6 @@ shell:
     - --login
 
 working_directory: None
-
-alt_send_esc: true
 
 mouse:
   double_click: { threshold: 300 }
